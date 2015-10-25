@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>云API</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/index_frames/home.css">
+</head>
+<body>
+    <div class="logo-banner">
+    	<h1>Chuang!!!</h1>
+        <p>找活动，找伙伴，尽在Chuang平台</p>
+    </div>
+    <div class="grid">
+    	<div class='grid-item'><div><img src='../../image/home/p1.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p2.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p1.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p2.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p1.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p2.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p1.jpg'></div></div>
+    	<div class='grid-item'><div><img src='../../image/home/p2.jpg'></div></div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="../../script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="../../script/masonry.min.js"></script>
+<script type="text/javascript" src="../../script/index_frames/home.js"></script>

@@ -1,0 +1,99 @@
+@import "compass";
+
+#wrap{
+	background: rgb(245,246,247);
+	padding-top: 10px;
+}
+
+//分类划分部分的样式 start--------------------------------------------------------
+//group为第一层，作为外层框
+.category-group{
+	margin: 10px;
+	padding: 5px 5px 0;
+	background:#fff;
+	border:1px solid #eee;
+	@include border-radius(4px);
+}
+
+//title、list为第二层，隶属于group
+.category-title{
+	padding: 7px 0;
+	min-width: 50px;
+	line-height: 1;
+	text-align: center;
+	color: #333;
+	font-size:14px;
+}
+
+.category-list{
+	&:after{
+		content: "."; 
+	    display: block;
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+}
+
+//item为第三层，隶属于list
+.category-item{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding: 7px 10px;
+	background: rgba(117,117,117,.4);
+	text-align: center;
+	line-height: 1;
+	font-size:14px;
+	color:#fff;
+	@include border-radius(1px);
+	&.active{
+		background:#ff8a80;
+	}
+}
+//分类划分部分的样式 end-----------------------------------------------------------
+
+//地图显示区域部分样式 start-------------------------------------------------------
+.mode-list{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #eee;
+}
+
+.mode-item{
+	margin: 0 auto;
+	height: 30px;
+	max-width: 100px;
+	line-height: 30px;
+	background-color: rgba(117,117,117,.4);
+	color: #fff;
+	text-align: center;
+	@include border-radius(2px);
+	&.active{
+		background: #ff8a80;
+		&:after{
+			display:block;
+			margin-left: 40px;
+			position: absolute; 
+			content:" ";
+			width: 0;
+			height: 0;
+			border-top:10px solid #ff8a80;
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+		}
+	}
+}
+
+.map{
+	margin: 10px;
+	background: #fff;
+	border:1px solid #eee;
+	@include border-radius(4px);
+}
+
+#map-content{
+	height: 400px;
+}
+//地图显示区域部分样式 end---------------------------------------------------------

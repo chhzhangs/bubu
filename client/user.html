@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>用户中心</title>
+    <link rel="stylesheet" type="text/css" href="./css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/user.css">
+</head>
+<body>
+	<div id="wrap" class="flex-wrap flex-vertical">
+		<!--user界面的标头-->
+		<header class="flex-wrap">
+			<div class="top-ele back"></div>
+			<div id="login" class="top-ele login flex-con">
+				<img src="./image/user_noborder.png" />
+                <p id="username">登录|注册</p>
+                <p style="color:#ffcc80;margin-top:10px">开心每一天</p>
+            </div>
+            <div id="logout" class="top-ele logout">
+            	<p>登出</p>
+            </div>
+		</header>
+
+		<!--上部导航-->
+		<div class="user-nav">
+			<ul class="flex-wrap">
+				<li tapmode="hover" class="flex-con active" >个人信息</li>
+                <li tapmode="hover" class="flex-con nav-border" >关注的活动</li>
+                <li tapmode="hover" class="flex-con" >关注的人</li>
+			</ul>
+		</div>
+
+		<!--user界面中间部分-->
+		<div id="main" class="flex-con">
+			
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="./script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./script/api.js"></script>
+<script type="text/javascript" src="./script/user.js"></script>

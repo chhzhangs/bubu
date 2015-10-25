@@ -1,0 +1,33 @@
+@import "compass";
+
+#wrap{
+	background-color: #f1f1f1;
+}
+
+//标头部分 start-------------------------------------------------------------
+header{
+	background-color: #DC3237;
+	.top-ele{
+		background-repeat: no-repeat;
+		background-size: 30px;
+		background-position: center;
+	}
+
+	.back{
+		padding: 20px;
+		background-image: image-url('t_back_w.png');
+	}
+
+	.logo{ 
+		padding: 12px;
+		p{
+			margin: 0;
+			font-size: 16px;
+			line-height: 1;
+			color: #f1f1f1;
+			text-align: center;
+		}
+		//background-image: image-url('navbar_netease@2x.png');
+	}
+}
+//标头部分 end-------------------------------------------------------------------

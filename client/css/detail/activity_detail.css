@@ -1,0 +1,66 @@
+/* line 4, ../../sass/detail/activity_detail.scss */
+header {
+  background-color: #DC3237;
+}
+/* line 6, ../../sass/detail/activity_detail.scss */
+header .top-ele {
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+/* line 12, ../../sass/detail/activity_detail.scss */
+header .back {
+  padding: 20px;
+  background-image: url('../../image/t_back_w.png?1445592353');
+}
+/* line 17, ../../sass/detail/activity_detail.scss */
+header .logo {
+  padding: 12px;
+}
+/* line 19, ../../sass/detail/activity_detail.scss */
+header .logo p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+/* line 35, ../../sass/detail/activity_detail.scss */
+.activity-artical {
+  line-height: 30px;
+  color: #000;
+  padding: 15px;
+}
+
+/* line 41, ../../sass/detail/activity_detail.scss */
+.activity-title {
+  padding: 10px 0 7px 0;
+}
+
+/* line 46, ../../sass/detail/activity_detail.scss */
+.activity-subtitle p {
+  text-align: left;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #aaa;
+}
+
+/* line 55, ../../sass/detail/activity_detail.scss */
+.activity-img {
+  margin: 20px 0;
+}
+/* line 57, ../../sass/detail/activity_detail.scss */
+.activity-img img {
+  width: 100%;
+  height: auto;
+  min-height: 120px;
+  background: pink;
+}
+
+/* line 66, ../../sass/detail/activity_detail.scss */
+.activity-content p {
+  text-indent: 2em;
+  font-size: 14px;
+}

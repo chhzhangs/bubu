@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>底部导航</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/user_frames/info.css">
+</head>
+<body>
+	<div id="wrap" class="userinfo-group">
+		<!--头像-->
+		<ul class="userinfo-list">
+			<li class="userinfo-item flex-wrap">
+				<img class="userinfo-img" src="../../image/touxiang.jpg"></img>
+				<p class="userinfo-value flex-con">修改头像</p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+		</ul>
+
+		<!--昵称、性别、技能、标签-->
+		<ul class="userinfo-list">
+			<li class="userinfo-item flex-wrap">
+				<p class="userinfo-label">姓名：</p>
+				<p class="userinfo-value flex-con">刘帅</p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+			<li class="userinfo-item flex-wrap">
+				<p class="userinfo-label">性别：</p>
+				<p class="userinfo-value flex-con">男</p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+			<li class="userinfo-item flex-wrap">
+				<p class="userinfo-label">技能：</p>
+				<p class="userinfo-value flex-con">前端</p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+			<li class="userinfo-item flex-wrap">
+				<p class="userinfo-label">标签：</p>
+				<p class="userinfo-value flex-con">伪Geek</p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+		</ul>
+
+		<!--修改密码-->
+		<ul class="userinfo-list">
+			<li class="userinfo-item flex-wrap">
+				<p class="userinfo-label">修改密码</p>
+				<p class="userinfo-value flex-con"></p>
+				<p class="userinfo-change">&gt;</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

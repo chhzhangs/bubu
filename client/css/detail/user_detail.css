@@ -1,0 +1,32 @@
+/* line 3, ../../sass/detail/user_detail.scss */
+#wrap {
+  background-color: #f1f1f1;
+}
+
+/* line 8, ../../sass/detail/user_detail.scss */
+header {
+  background-color: #DC3237;
+}
+/* line 10, ../../sass/detail/user_detail.scss */
+header .top-ele {
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+/* line 16, ../../sass/detail/user_detail.scss */
+header .back {
+  padding: 20px;
+  background-image: url('../../image/t_back_w.png?1445592353');
+}
+/* line 21, ../../sass/detail/user_detail.scss */
+header .logo {
+  padding: 12px;
+}
+/* line 23, ../../sass/detail/user_detail.scss */
+header .logo p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #f1f1f1;
+  text-align: center;
+}

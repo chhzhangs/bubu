@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/user_login.css">
+</head>
+<body>
+<!--contactsinfo，projectinfo，userspace共用listinfo样式-->
+<div id="wrap" class="flex-wrap flex-vertical">
+    <!--标头，需要在右侧添加一个进入到个人中心的链接 start-->
+    <header class="flex-wrap">
+        <div class="top-ele back"></div>
+        <div class="top-ele logo flex-con">
+            <p>用户登录</p>
+        </div>
+        <div class="top-ele add"></div>
+    </header>
+    <!--标头 end-->
+
+    <!--登录信息输入部分 start-->
+    <div id="main" class="flex-con">
+    	<div class="login-group">
+    		<div class="login-item flex-wrap">
+    			<div class="login-icon login-icon-name"></div>
+    			<input id="username" class="flex-con" type="text" placeholder=" 用户名">
+    		</div>
+    		<div class="login-item flex-wrap">
+    			<div class="login-icon login-icon-password"></div>
+    			<input id="password" class="flex-con" type="password" placeholder=" 密码">
+    		</div>
+            <div class="login-message"></div>
+    		<div class="btn btn-login">
+    			<p>登录</p>
+    		</div>
+            <div class="btn btn-register">
+                <p>没有帐号？点击这里注册</p>
+            </div>
+    	</div>
+    </div>
+    <!--登录信息输入部分 end-->
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../../script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.md5.js"></script>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="../../script/user_login/user_login.js"></script>

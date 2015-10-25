@@ -1,0 +1,50 @@
+//用户信息管理界面样式
+@import "compass";
+
+.userinfo-group{
+	padding: 10px;
+	background-color: #f1f1f1;
+	font-size: 12px;
+	line-height: 1;
+}
+
+.userinfo-list{
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ececec;
+	//@include border-radius(1px);
+}
+
+.userinfo-item{
+	background-color: #fff;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #eee;
+	&:last-child{
+		border-style: none;
+	}
+}
+
+.userinfo-label{
+	padding: 10px;
+	color: #666;
+}
+
+.userinfo-value{
+	padding: 10px 0;
+	color: #ccc;
+}
+
+.userinfo-change{
+	padding: 10px 15px;
+	color: #666;
+}
+
+.userinfo-img{
+	display: block;
+	padding: 3px 10px 3px 3px;
+	width: 26px;
+	height: 26px;
+}
+

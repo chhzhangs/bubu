@@ -1,0 +1,54 @@
+//用户信息管理界面样式
+@import "compass";
+
+//group为第一层
+.userinfo-group{
+	padding: 10px;
+	background-color: #f1f1f1;
+	font-size: 12px;
+	line-height: 1;
+}
+
+//list为第二层，隶属于group
+.userinfo-list{
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ececec;
+	//@include border-radius(1px);
+}
+
+//item为第三层，隶属于list
+.userinfo-item{
+	background-color: #fff;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #eee;
+	&:last-child{
+		border-style: none;
+	}
+}
+
+//label、value、change、img为第四层，隶属于item
+.userinfo-label{
+	padding: 12px;
+	color: #666;
+}
+
+.userinfo-value{
+	padding: 12px 0;
+	color: #ccc;
+}
+
+.userinfo-change{
+	padding: 12px 15px;
+	color: #666;
+}
+
+.userinfo-img{
+	display: block;
+	padding: 5px 10px 5px 5px;
+	width: 26px;
+	height: 26px;
+}
+

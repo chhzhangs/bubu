@@ -1,0 +1,64 @@
+/* line 6, ../../sass/user_frames/activity.scss */
+.activity-list {
+  background-color: #f1f1f1;
+}
+
+/* line 11, ../../sass/user_frames/activity.scss */
+.activity-item {
+  background-color: #fff;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #eee;
+}
+/* line 16, ../../sass/user_frames/activity.scss */
+.activity-item:last-child {
+  border-style: none;
+}
+
+/* line 22, ../../sass/user_frames/activity.scss */
+.activity-img {
+  display: block;
+  padding: 5px 10px 5px 5px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 29, ../../sass/user_frames/activity.scss */
+.friend-img {
+  display: block;
+  margin: 5px 10px 5px 5px;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 37, ../../sass/user_frames/activity.scss */
+.activity-content {
+  padding: 8px 0 0 0;
+}
+/* line 39, ../../sass/user_frames/activity.scss */
+.activity-content .activity-title {
+  margin: 0;
+  height: 16px;
+  font-size: 15px;
+  line-height: 1;
+  color: #333;
+}
+/* line 46, ../../sass/user_frames/activity.scss */
+.activity-content .activity-subtitle {
+  margin: 5px 0 0 0;
+  height: 13px;
+  font-size: 12px;
+  line-height: 1;
+  color: #999;
+}
+
+/* line 55, ../../sass/user_frames/activity.scss */
+.activity-time {
+  padding: 8px;
+  font-size: 12px;
+  line-height: 1;
+  color: #ccc;
+}

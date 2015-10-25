@@ -1,0 +1,38 @@
+/* line 4, ../sass/user_value.scss */
+#wrap {
+  background-color: #f1f1f1;
+}
+
+/* line 9, ../sass/user_value.scss */
+header {
+  background-color: #DC3237;
+}
+/* line 11, ../sass/user_value.scss */
+header .top-ele {
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+/* line 17, ../sass/user_value.scss */
+header .back {
+  padding: 20px;
+  background-image: url('../image/t_back_w.png?1445592353');
+}
+/* line 22, ../sass/user_value.scss */
+header .logo {
+  padding: 12px;
+}
+/* line 24, ../sass/user_value.scss */
+header .logo p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #f1f1f1;
+  text-align: center;
+}
+/* line 33, ../sass/user_value.scss */
+header .user {
+  padding: 20px;
+  background-image: url('../image/t_user.png?1425091490');
+  visibility: hidden;
+}

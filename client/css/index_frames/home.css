@@ -1,0 +1,33 @@
+/* line 3, ../../sass/index_frames/home.scss */
+.logo-banner {
+  padding: 20px 0;
+  background-color: #ff8a80;
+  color: #fff;
+}
+/* line 7, ../../sass/index_frames/home.scss */
+.logo-banner h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 11, ../../sass/index_frames/home.scss */
+.logo-banner p {
+  text-align: center;
+}
+
+/* line 16, ../../sass/index_frames/home.scss */
+.grid {
+  margin-top: 10px;
+}
+
+/* line 20, ../../sass/index_frames/home.scss */
+.grid-item {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 2px;
+}
+/* line 24, ../../sass/index_frames/home.scss */
+.grid-item img {
+  width: 100%;
+}

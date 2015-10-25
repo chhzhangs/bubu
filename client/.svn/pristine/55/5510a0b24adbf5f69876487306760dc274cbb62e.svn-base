@@ -1,0 +1,53 @@
+/* line 4, ../../sass/user_frames/info.scss */
+.userinfo-group {
+  padding: 10px;
+  background-color: #f1f1f1;
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* line 11, ../../sass/user_frames/info.scss */
+.userinfo-list {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+}
+
+/* line 19, ../../sass/user_frames/info.scss */
+.userinfo-item {
+  background-color: #fff;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #eee;
+}
+/* line 24, ../../sass/user_frames/info.scss */
+.userinfo-item:last-child {
+  border-style: none;
+}
+
+/* line 29, ../../sass/user_frames/info.scss */
+.userinfo-label {
+  padding: 10px;
+  color: #666;
+}
+
+/* line 34, ../../sass/user_frames/info.scss */
+.userinfo-value {
+  padding: 10px 0;
+  color: #ccc;
+}
+
+/* line 39, ../../sass/user_frames/info.scss */
+.userinfo-change {
+  padding: 10px 15px;
+  color: #666;
+}
+
+/* line 44, ../../sass/user_frames/info.scss */
+.userinfo-img {
+  display: block;
+  padding: 3px 10px 3px 3px;
+  width: 26px;
+  height: 26px;
+}

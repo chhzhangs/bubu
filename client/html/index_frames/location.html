@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/index_frames/location.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/user_frames/activity.css"/>
+</head>
+<body>
+	<div id="wrap">
+		<!--技能选择方面 start-->
+		<div class="category-group flex-wrap">
+			<!--title-->
+			<p class="category-title">技能：</p>
+			<!--list-->
+			<ul class="category-list flex-con">
+				<li class="category-item active" skill="skill">不限</li>
+				<li class="category-item" skill="前端">前端</li>
+				<li class="category-item" skill="后台">后台</li>
+				<li class="category-item" skill="设计">设计</li>
+				<li class="category-item" skill="美工">美工</li>
+				<li class="category-item" skill="运营">运营</li>
+				<li class="category-item" skill="有钱任性">有钱任性</li>
+			</ul>
+		</div>
+		<!--技能选择方面 end-->
+
+		<!--模式选择以及地图显示 start-->
+		<div class="map">
+			<!--mode选择 start-->
+			<div class="mode-list flex-wrap">
+				<div class="flex-con">
+					<div class="mode-item active" mode="map">地图模式</div>
+				</div>
+				<div class="flex-con">
+					<div class="mode-item" mode="list">列表模式</div>
+				</div>
+			</div>
+			<!--mode 选择 end-->
+
+			<!--地图或列表展示-->
+			<div id="map-content" style="height:300px;"></div>
+		</div>
+		<!--模式选择以及地图显示 end-->
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../../script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=FilEytFpZX0SYSrZFtG6XDAG"></script>
+<script type="text/javascript" src="../../script/index_frames/location.js"></script>

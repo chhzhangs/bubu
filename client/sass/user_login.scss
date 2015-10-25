@@ -1,0 +1,104 @@
+//用户登录以及注册界面（两者界面相近，样式归到同一个文件）
+@import "compass";
+
+//标头部分 start-------------------------------------------------------------
+header{
+	background-color: #DC3237;
+	.top-ele{
+		background-repeat: no-repeat;
+		background-size: 30px;
+		background-position: center;
+	}
+
+	.back{
+		padding: 20px;
+		background-image: image-url('t_back_w.png');
+	}
+
+	.logo{ 
+		padding: 12px;
+		p{
+			margin: 0;
+			font-size: 16px;
+			line-height: 1;
+			color: #f1f1f1;
+			text-align: center;
+		}
+		//background-image: image-url('navbar_netease@2x.png');
+	}
+
+	.add{
+		padding: 20px;
+	}	
+}
+//标头部分 end---------------------------------------------------------------
+
+//input输入区域 start--------------------------------------------------------
+//登录或者注册的整体区域，处于第一层
+.login-group{
+	padding: 20px;
+}
+
+//input输入组，处于第二层，隶属于group
+.login-item{
+	padding: 10px 0 5px;
+	border-bottom: 1px solid #ddd;
+	//input，处于第三层，隶属于item
+	input{
+		margin-left: 10px;
+		height: 30px;
+		font-size: 16px;
+	}
+}
+
+//icon处于第三层，隶属于item
+.login-icon{
+	padding: 10px 15px 5px;
+	background-size: cover;
+	&.login-icon-name{
+		background-image: image-url('login_username_icon@2x.png');
+	}
+	&.login-icon-password{
+		background-image: image-url("login_password_icon@2x.png");
+	}
+	&.login-icon-check{
+		background-image: image-url("password_check.png");
+	}
+}
+
+//button单独分开处理，与item同级
+.btn{
+	margin: 20px 10px;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	border: 1px solid #ddd;
+	@include border-radius(4px);
+	&.btn-login{
+		background-color: #d9534f;
+		color: #f1f1f1;
+	}
+	&.btn-register{
+		color: #666;
+	}
+}
+
+//未修改的保留区域------------------------------------------------------------
+.login-message{
+	display: none;
+	padding: 10px 0;
+	margin: 20px 10px 0 10px;
+	background: #26a69a;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	color: #f1f1f1;
+	@include border-radius(4px);
+	&.login-message-fail{
+		display: block;
+		color: #f6f6f6;
+		background: #ff3d00;
+	}
+}
+//input输入区域 end ---------------------------------------------------------

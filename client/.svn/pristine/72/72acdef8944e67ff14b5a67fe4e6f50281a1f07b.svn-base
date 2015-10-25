@@ -1,0 +1,38 @@
+//全局样式（会作为移动端开发的参考或样板）
+@import "compass";
+
+html,body{
+	height: 100%;
+	min-width: 320px;
+	font-size: 14px;
+}
+
+//body中的主体，高度定为100%，方便实现底部栏固定在合适位置
+#wrap{
+	height: 100%;
+}
+
+//采用flex实现相关的布局（底部固定导航与横向的布局）
+.flex-wrap{
+	//@include display-flex(box);
+	display: -webkit-box;		//APIcloud支持，并且要与flex-con中的box-flex相对应
+	@include display-flex();	
+}
+
+.flex-con{
+	-webkit-box-flex: 1;
+	@include flex(1);
+}
+
+//确定flex的方向
+.flex-vertical{ 
+	-webkit-box-orient: vertical;
+	@include flex-flow(column);
+}
+
+//针对苹果手机效果的优化
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+    outline: none !important;
+}

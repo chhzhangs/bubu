@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>底部导航</title>
+    <link rel="stylesheet" type="text/css" href="./css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+    <div id="wrap" class="flex-wrap flex-vertical">
+        <!--标头，需要在右侧添加一个进入到个人中心的链接 start-->
+        <header class="flex-wrap">
+            <div class="top-ele menu"></div>
+            <div class="top-ele logo flex-con">
+                <p>创业者平台</p>
+            </div>
+            <div class="top-ele user"></div>
+        </header>
+        <!--标头 end-->
+
+        <!--中间主体部分，采用frame进行组合 start-->
+        <div id="main" class="flex-con">
+
+        </div>
+        <!--主体 end-->
+
+        <!--底部导航栏 start-->
+        <div id="footer">
+            <ul class="flex-wrap" >
+                <li tapmode="hover" class="flex-con" >附近</li>
+                <li tapmode="hover" class="flex-con active" >首页</li>
+                <li tapmode="hover" class="flex-con" >消息</li>
+            </ul>
+        </div>
+        <!--底部导航栏 end-->
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="script/api.js"></script>
+<script type="text/javascript" src="script/index.js"></script>

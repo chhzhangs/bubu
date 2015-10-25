@@ -1,0 +1,108 @@
+/* line 3, ../../sass/index_frames/location.scss */
+#wrap {
+  background: #f5f6f7;
+  padding-top: 10px;
+}
+
+/* line 10, ../../sass/index_frames/location.scss */
+.category-group {
+  margin: 10px;
+  padding: 5px 5px 0;
+  background: #fff;
+  border: 1px solid #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 19, ../../sass/index_frames/location.scss */
+.category-title {
+  padding: 7px 0;
+  min-width: 50px;
+  line-height: 1;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+/* line 29, ../../sass/index_frames/location.scss */
+.category-list:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 39, ../../sass/index_frames/location.scss */
+.category-item {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 7px 10px;
+  background: rgba(117, 117, 117, 0.4);
+  text-align: center;
+  line-height: 1;
+  font-size: 14px;
+  color: #fff;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+}
+/* line 51, ../../sass/index_frames/location.scss */
+.category-item.active {
+  background: #ff8a80;
+}
+
+/* line 58, ../../sass/index_frames/location.scss */
+.mode-list {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 64, ../../sass/index_frames/location.scss */
+.mode-item {
+  margin: 0 auto;
+  height: 30px;
+  max-width: 100px;
+  line-height: 30px;
+  background-color: rgba(117, 117, 117, 0.4);
+  color: #fff;
+  text-align: center;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 73, ../../sass/index_frames/location.scss */
+.mode-item.active {
+  background: #ff8a80;
+}
+/* line 75, ../../sass/index_frames/location.scss */
+.mode-item.active:after {
+  display: block;
+  margin-left: 40px;
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  border-top: 10px solid #ff8a80;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+/* line 89, ../../sass/index_frames/location.scss */
+.map {
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 96, ../../sass/index_frames/location.scss */
+.map-content {
+  height: 200px;
+}

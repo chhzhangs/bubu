@@ -1,0 +1,39 @@
+/* line 4, ../sass/styles.scss */
+html, body {
+  height: 100%;
+  min-width: 320px;
+  font-size: 14px;
+}
+
+/* line 11, ../sass/styles.scss */
+#wrap {
+  height: 100%;
+}
+
+/* line 16, ../sass/styles.scss */
+.flex-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 22, ../sass/styles.scss */
+.flex-con {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/* line 28, ../sass/styles.scss */
+.flex-vertical {
+  -webkit-box-orient: vertical;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+
+/* line 34, ../sass/styles.scss */
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}

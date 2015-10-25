@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>底部导航</title>
+    <link rel="stylesheet" type="text/css" href="../../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/user_frames/info.css">
+    <link rel="stylesheet" type="text/css" href="../../css/detail/user_detail.css">
+</head>
+<body>
+	<div id="wrap">
+		<!--标头  start-->
+        <header class="flex-wrap">
+            <div class="top-ele back"></div>
+            <div class="top-ele logo flex-con">
+                <p>小伙伴的信息</p>
+            </div>
+            <div class="top-ele logo">
+                
+            </div>
+        </header>
+        <!--标头 end-->
+
+		<!--关注的人的信息部分 start-->
+		<div class="userinfo-group">
+			<!--头像、昵称-->
+			<ul class="userinfo-list">
+				<li class="userinfo-item flex-wrap">
+					<img class="userinfo-img" src="../../image/touxiang.jpg"></img>
+					<p class="userinfo-value flex-con"></p>
+					<p class="userinfo-change">刘帅</p>
+				</li>
+			</ul>
+
+			<!--性别、技能、标签-->
+			<ul class="userinfo-list">
+				<li class="userinfo-item flex-wrap">
+					<p class="userinfo-label">性别：</p>
+					<p class="userinfo-value flex-con"></p>
+					<p class="userinfo-change">男</p>
+				</li>
+				<li class="userinfo-item flex-wrap">
+					<p class="userinfo-label">技能：</p>
+					<p class="userinfo-value flex-con"></p>
+					<p class="userinfo-change">前端</p>
+				</li>
+				<li class="userinfo-item flex-wrap">
+					<p class="userinfo-label">标签：</p>
+					<p class="userinfo-value flex-con"></p>
+					<p class="userinfo-change">伪Geek</p>
+				</li>
+			</ul>
+		</div>
+		<!--关注的人的信息部分 end-->
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="../../script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../../script/api.js"></script>
+<script type="text/javascript" src="../../script/detail/user_detail.js"></script>

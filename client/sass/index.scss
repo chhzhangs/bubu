@@ -1,0 +1,73 @@
+@import "compass";
+
+//标头部分 start-------------------------------------------------------------
+header{
+	background-color: #DC3237;
+	.top-ele{
+		background-repeat: no-repeat;
+		background-size: 30px;
+		background-position: center;
+	}
+
+	.menu{
+		padding: 20px;
+		background-image: image-url('t_menu.png');
+		visibility: hidden; 
+	}
+
+	.logo{ 
+		padding: 12px;
+		p{
+			margin: 0;
+			font-size: 16px;
+			line-height: 1;
+			color: #f1f1f1;
+			text-align: center;
+		}
+		//background-image: image-url('navbar_netease@2x.png');
+	}
+	.user{
+		padding: 20px;
+		background-image: image-url('t_user.png');
+	}
+}
+//标头部分 end-------------------------------------------------------------------
+
+//底边栏部分 start---------------------------------------------------------------
+#footer{
+	position: relative;
+	background-color: #f2f2f2;
+	//采用:before设定半个像素高的边
+	&:before{
+		content: "";
+		position: absolute;
+		left: 0; top: 0; right: 0;
+		height: 1px;
+		background-color: #ddd;
+		@include scaleY(0.5);
+		@include transform-origin(0 0);
+	}
+
+	//具体底边栏目样式
+	ul li{
+		padding-top: 26px;
+		padding-bottom: 4px;
+		background-repeat: no-repeat;
+		background-position: center 2px;
+		background-size: auto 25px;
+		text-align: center;
+		font-size: 10px;
+		&.active{
+			color: #6ab494;
+		}
+		&:nth-child(1){ background-image: image-url('b_fire.png'); }
+        &:nth-child(2){ background-image: image-url('b_home.png'); }
+        &:nth-child(3){ background-image: image-url('b_grid.png'); }
+        &:nth-child(1).active{ background-image: image-url('b_fire_a.png'); }
+        &:nth-child(2).active{ background-image: image-url('b_home_a.png'); }
+        &:nth-child(3).active{ background-image: image-url('b_grid_a.png'); }
+	}
+}
+//底边栏部分 end---------------------------------------------------------------
+
+

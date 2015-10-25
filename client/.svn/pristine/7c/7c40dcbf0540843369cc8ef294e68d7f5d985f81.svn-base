@@ -1,0 +1,61 @@
+//用户关注的活动界面样式（包含用户关注的人界面样式，样式相近暂不分离）
+//由于太过于通用考虑将划分到通用样式
+@import "compass";
+
+//list为第一层
+.activity-list{
+	background-color: #f1f1f1;
+}
+
+//item为第二层，隶属于list
+.activity-item{
+	background-color: #fff;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #eee;
+	&:last-child{
+		border-style: none;
+	}
+}
+
+//img、content、time为第三层，隶属于item
+.activity-img{
+	display: block;
+	padding: 5px 10px 5px 5px;
+	width: 40px;
+	height: 40px;
+}
+
+.friend-img{
+	display: block;
+	margin: 5px 10px 5px 5px;
+	width: 40px;
+	height: 40px;
+	@include border-radius(2px);
+}
+
+.activity-content{
+	padding: 8px 0 0 0;
+	.activity-title{
+		margin: 0;
+		height: 16px;
+		font-size: 15px;
+		line-height: 1;
+		color: #333;
+	}
+	.activity-subtitle{
+		margin: 5px 0 0 0;
+		height: 13px;
+		font-size: 12px;
+		line-height: 1;
+		color: #999;
+	}
+}
+
+.activity-time{
+	padding: 8px;
+	font-size: 12px;
+	line-height: 1;
+	color: #ccc;
+}
+

@@ -1,0 +1,95 @@
+/* line 4, ../sass/index.scss */
+header {
+  background-color: #DC3237;
+}
+/* line 6, ../sass/index.scss */
+header .top-ele {
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+/* line 12, ../sass/index.scss */
+header .menu {
+  padding: 20px;
+  background-image: url('../image/t_menu.png?1425091491');
+  visibility: hidden;
+}
+/* line 18, ../sass/index.scss */
+header .logo {
+  padding: 12px;
+}
+/* line 20, ../sass/index.scss */
+header .logo p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #f1f1f1;
+  text-align: center;
+}
+/* line 29, ../sass/index.scss */
+header .user {
+  padding: 20px;
+  background-image: url('../image/t_user.png?1425091490');
+}
+
+/* line 37, ../sass/index.scss */
+#footer {
+  position: relative;
+  background-color: #f2f2f2;
+}
+/* line 41, ../sass/index.scss */
+#footer:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ddd;
+  -moz-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -moz-transform-origin: 0 0 50%;
+  -ms-transform-origin: 0 0 50%;
+  -webkit-transform-origin: 0 0 50%;
+  transform-origin: 0 0 50%;
+}
+/* line 52, ../sass/index.scss */
+#footer ul li {
+  padding-top: 26px;
+  padding-bottom: 4px;
+  background-repeat: no-repeat;
+  background-position: center 2px;
+  background-size: auto 25px;
+  text-align: center;
+  font-size: 10px;
+}
+/* line 60, ../sass/index.scss */
+#footer ul li.active {
+  color: #6ab494;
+}
+/* line 63, ../sass/index.scss */
+#footer ul li:nth-child(1) {
+  background-image: url('../image/b_fire.png?1444426875');
+}
+/* line 64, ../sass/index.scss */
+#footer ul li:nth-child(2) {
+  background-image: url('../image/b_home.png?1444426875');
+}
+/* line 65, ../sass/index.scss */
+#footer ul li:nth-child(3) {
+  background-image: url('../image/b_grid.png?1444426875');
+}
+/* line 66, ../sass/index.scss */
+#footer ul li:nth-child(1).active {
+  background-image: url('../image/b_fire_a.png?1444426875');
+}
+/* line 67, ../sass/index.scss */
+#footer ul li:nth-child(2).active {
+  background-image: url('../image/b_home_a.png?1444426875');
+}
+/* line 68, ../sass/index.scss */
+#footer ul li:nth-child(3).active {
+  background-image: url('../image/b_grid_a.png?1444426875');
+}
